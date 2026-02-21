@@ -1,0 +1,13 @@
+dataset: Casting Product Image Data for Quality Inspection
+source: https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+subset: 1300 images (see image_subset_list.csv)
+train_images: 1170
+val_images: 130
+seed: 42
+nc: 2
+names:
+  0: defective
+  1: non_defective
+image_size: 640
+note: Bounding boxes are whole-part annotations. Class 0=defective (def_front), Class
+  1=non_defective (ok_front).
